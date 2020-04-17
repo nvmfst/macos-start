@@ -18,8 +18,7 @@ cask "discord"
 cask "firefox"
 cask "firestorm"
 cask "font-source-code-pro"
-cask "geotag"
-cask "google-backup-and-sync"
+cask "github"
 cask "imageoptim"
 cask "monolingual"
 cask "netnewswire"
@@ -32,7 +31,6 @@ cask "transmit"
 cask "vlc"
 cask "voodoopad"
 mas "1Blocker", id: 1107421413
-mas "Bear", id: 1091189122
 mas "EasyRes", id: 688211836
 mas "Magnet", id: 441258766
 mas "Name Mangler", id: 603637384
