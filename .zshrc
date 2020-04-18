@@ -103,6 +103,8 @@ source $ZSH/oh-my-zsh.sh
 alias ls="ls -la"
 alias clr="clear"
 alias brewup="brew doctor && brew upgrade && brew cask upgrade && brew doctor && brew cleanup"
+alias bundleup="cd ~/.macos-start/ && rm Brewfile && brew bundle dump"
+
 export PATH="/usr/local/sbin:$PATH"
 
 if command -v pyenv 1>/dev/null 2>&1; then
