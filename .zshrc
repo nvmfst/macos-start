@@ -104,3 +104,7 @@ alias ls="ls -la"
 alias clr="clear"
 alias brewup="brew doctor && brew upgrade && brew cask upgrade && brew doctor && brew cleanup"
 export PATH="/usr/local/sbin:$PATH"
+
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
